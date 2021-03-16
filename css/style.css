@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#logo{
+    font-family: Roboto;
+    margin-top: 10px;
+    margin-left: 20px;
+    /* background-color: green; */
+
+}
+  
+
+.toboolist{
+    font-size: 55px;
+    display: inline-block;
+}
