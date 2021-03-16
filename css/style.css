@@ -1,19 +1,107 @@
-*{
+/* selettori generici */
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-#logo{
     font-family: Roboto;
-    margin-top: 10px;
-    margin-left: 20px;
-    /* background-color: green; */
-
 }
-  
-
-.toboolist{
-    font-size: 55px;
+h1 {
+    display: inline-block;  
+}
+h2 {
+    font-size: 24px;
+    margin-top: 50px;
     display: inline-block;
+    color:#444851
 }
+
+/* selettore id */
+#contenitore_logo {
+  margin: 15px 0px 0px 25px;  
+  font-size: 28px;
+}
+#logo {
+    height: 50px;
+    width: 50px;
+}
+
+#container {
+    width: 70%;
+    margin: 70px auto;    
+}
+
+#bottone_add_task {
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+    height: 34px;
+    background-color: #47adf1;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    line-height: 35px;
+    
+}
+#bottone_add_section {
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    background-color: #47adf1;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #c5cbd0;
+    background-color: white;
+    border: 1px solid #c5cbd0;
+    line-height: 35px;
+}
+
+/* selettore classi */
+.triangolo_h2 {
+    font-size: 30px;
+    color:#444851;
+}
+
+.contenitore_lista{
+    margin: 15px 0px 0px 8px;
+}
+
+.lista{
+    color:#444851;
+    font-size: 20px;
+}
+
+.bottone_lista{
+    text-align: center;
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    background-color: #47adf1;
+    border-radius: 12px;
+    font-size: 12px;
+    color: white;
+    border: 1px solid #c5cbd0;
+    line-height: 29px;
+}
+
+.viola{
+    background-color: #9c72e4;
+}
+
+.verde{
+    background-color:#64c0a9;
+}
+
+.verde_alternativo{
+    background-color: #b0c926;
+}
+
+.arancione{
+    background-color: #f29e33;
+}
+
+.fucsia{
+    background-color: #d863a1;
+}
+
+
