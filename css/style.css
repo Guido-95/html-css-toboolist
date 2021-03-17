@@ -6,8 +6,23 @@
     font-family: Roboto;
 }
 
+html{
+    height: 100%; 
+    width: 100%;
+}
+
+body{
+    background-color: #f6f8f9;
+    height: 100%; 
+    width: 100%;
+} 
+
 header{
-    height: 80px; 
+    height: 80px;
+    width: 100%; 
+    line-height: 80px;
+    font-size: 28px;
+    background-color: white;
 }
 
 h1 {
@@ -23,50 +38,64 @@ h2 {
     color:#444851
 }
 
-/* selettore id */
-#contenitore_logo {
-  margin: 15px 0px 0px 25px; 
-  line-height: 80px;
-  font-size: 28px;
+section{
+    margin: 0px 0px 0px 45px;
 }
+
+/* selettore id */
+
+#contenitore_logo{
+    margin: 0 0 0 20px ;
+}
+
 #logo {
-    height: 50px;
-    width: 50px;
+    height: 60px;
     vertical-align: middle;
 }
 
 #container {
     width: 70%;
-    margin: 70px auto;    
+    height: 80%;
+    margin: 70px auto;   
+    background-color: white; 
 }
 
 #bottone_add_task {
     text-align: center;
     display: inline-block;
+    margin: 15px 0px 0px 55px;
     width: 100px;
     height: 34px;
-    background-color: #47adf1;
+    line-height: 35px;
     border-radius: 5px;
     font-size: 15px;
     color: white;
-    line-height: 35px;
+    background-color: #47adf1;
+    
     
 }
 #bottone_add_section {
     text-align: center;
     display: inline-block;
+    margin: 15px 0px 0px 0px;
     width: 100px;
     height: 35px;
-    background-color: #47adf1;
+    line-height: 35px;
     border-radius: 5px;
     font-size: 15px;
+    background-color: #47adf1;
     color: #c5cbd0;
     background-color: white;
     border: 1px solid #c5cbd0;
-    line-height: 35px;
+    
 }
 
 /* selettore classi */
+
+.linea_bottoni{
+    margin-top: 10px;
+    border-top: 2px solid #f6f8f9;
+}
 .triangolo_h2 {
     font-size: 30px;
     color:#444851;
