@@ -5,9 +5,17 @@
     padding: 0;
     font-family: Roboto;
 }
-h1 {
-    display: inline-block;  
+
+header{
+    height: 80px; 
 }
+
+h1 {
+    font-size: 40px;
+    display: inline-block;
+    vertical-align: middle;  
+}
+
 h2 {
     font-size: 24px;
     margin-top: 50px;
@@ -17,12 +25,14 @@ h2 {
 
 /* selettore id */
 #contenitore_logo {
-  margin: 15px 0px 0px 25px;  
+  margin: 15px 0px 0px 25px; 
+  line-height: 80px;
   font-size: 28px;
 }
 #logo {
     height: 50px;
     width: 50px;
+    vertical-align: middle;
 }
 
 #container {
